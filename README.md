@@ -1,41 +1,71 @@
 <div align="center">
-    <img align="center" src="https://github-readme-stats.vercel.app/api?username=Memory2023Liu&show_icons=true&count_private=true&hide_border=true" alt="Memory2023Liu's Github Stats"></img>
+
+# Hi, I'm Xiaozhao Liu 👋
+
+**Battery Materials | Lab Automation | AI-Driven Materials Discovery**
+
+<img src="https://github-readme-stats.vercel.app/api?username=Memory2023Liu&show_icons=true&count_private=true&hide_border=true" alt="Memory2023Liu's GitHub Stats">
+
 </div>
 
 ---
 
-> "I am smart enough to know that I am dumb" - Richard Feynman 
+## About Me
 
-My work focuses on developing compositionally complex materials leveraging automation and machine learning technologies.
+My research focuses on developing compositionally complex materials for battery applications by leveraging automation and artificial intelligence.
 
 I specialize in:
+
 - Lab automation
 - Battery materials
+- Electrochemistry
+- Materials chemistry
+- Inorganic chemistry
 - Battery safety
-
-> Note: This is my readme inspired by [waka_Readme](https://github.com/marketplace/actions/waka-readme), [Step](https://github.com/orgs/community/discussions/116451)
-> - open setting in your repsitory README -> Security -> Secrets and variables
 
 ---
 
-### Development time
-<!--START_SECTION:waka-->
+## Research Interests
 
-```rust
-From: 24 December 2024 - To: 01 July 2026
+- Compositionally complex materials
+- High-throughput synthesis and characterization
+- Battery cathode materials
+- Data-driven materials discovery
+- Automation-assisted materials research
+- Machine learning for materials science
 
-Total Time: 2,959 hrs 3 mins
+---
 
-TeX                1,465 hrs 34 mins     >>>>>>>>>>>>-------------   49.46 %
-Python             1,325 hrs 42 mins     >>>>>>>>>>>--------------   44.74 %
-BibTeX             103 hrs 15 mins       >------------------------   03.48 %
-Markdown           14 hrs 29 mins        -------------------------   00.49 %
-OpenEdge ABL       9 hrs 44 mins         -------------------------   00.33 %
-Other              4 hrs 18 mins         -------------------------   00.15 %
-```
+## Coding Activity
 
-<!--END_SECTION:waka-->
+### All-time statistics
 
-### 
+<!--START_SECTION:waka_all_time-->
+<!--END_SECTION:waka_all_time-->
+
+### Recent 7 days
+
+<!--START_SECTION:waka_week-->
+<!--END_SECTION:waka_week-->
+
+---
+
+## Notes
+
+This README was inspired by [waka-readme](https://github.com/marketplace/actions/waka-readme) and this GitHub Community [discussion](https://github.com/orgs/community/discussions/116451).
+
+To enable WakaTime updates, open your repository settings and go to:
+
+`Settings → Security → Secrets and variables → Actions`
+
+Add your WakaTime API key as:
+
+`WAKATIME_API_KEY`
+
+---
+
+<div align="center">
 
 ![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=Memory2023Liu.Memory2023Liu)
+
+</div>
