@@ -64,3 +64,85 @@ jobs:
           TARGET_PATH: README.md
           COMMITTER_NAME: GitHubActionBot
           COMMITTER_EMAIL: action-bot@github.com
+
+  update-daily-average:
+    name: Update daily average WakaTime stats
+    runs-on: ubuntu-latest
+    needs: update-week
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: master
+
+      - name: Update daily average section
+        env:
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+        run: |
+          python - <<'PY'
+          import base64
+          import json
+          import os
+          import re
+          import urllib.request
+
+          api_key = os.environ["WAKATIME_API_KEY"]
+          token = base64.b64encode(api_key.encode()).decode()
+          request = urllib.request.Request(
+              "https://wakatime.com/api/v1/users/current/stats/last_7_days",
+              headers={"Authorization": f"Basic {token}"},
+          )
+
+          with urllib.request.urlopen(request, timeout=30) as response:
+              payload = json.loads(response.read().decode())
+
+          data = payload.get("data", {})
+          average = data.get("human_readable_daily_average")
+
+          if not average:
+              seconds = data.get("daily_average")
+              if seconds is None:
+                  total_seconds = data.get("total_seconds", 0)
+                  seconds = total_seconds / 7
+              seconds = int(seconds)
+              hours, remainder = divmod(seconds, 3600)
+              minutes = remainder // 60
+              if hours and minutes:
+                  average = f"{hours} hrs {minutes} mins"
+              elif hours:
+                  average = f"{hours} hrs"
+              elif minutes:
+                  average = f"{minutes} mins"
+              else:
+                  average = "0 mins"
+
+          replacement = (
+              "<!--START_SECTION:wakadailyaverage-->\n\n"
+              "```text\n"
+              f"Daily average over the last 7 days: {average}\n"
+              "```\n\n"
+              "<!--END_SECTION:wakadailyaverage-->"
+          )
+
+          path = "README.md"
+          with open(path, "r", encoding="utf-8") as handle:
+              readme = handle.read()
+
+          pattern = r"<!--START_SECTION:wakadailyaverage-->[\s\S]*?<!--END_SECTION:wakadailyaverage-->"
+          new_readme = re.sub(pattern, replacement, readme)
+
+          if new_readme == readme:
+              print("Daily average section already up to date.")
+          else:
+              with open(path, "w", encoding="utf-8") as handle:
+                  handle.write(new_readme)
+              print(f"Updated daily average: {average}")
+          PY
+
+      - name: Commit daily average update
+        run: |
+          git config user.name "GitHubActionBot"
+          git config user.email "action-bot@github.com"
+          git add README.md
+          git diff --cached --quiet || git commit -m "Update WakaTime daily average"
+          git push
