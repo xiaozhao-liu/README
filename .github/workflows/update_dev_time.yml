@@ -8,6 +8,9 @@ on:
   schedule:
     - cron: "0 0 * * *"
 
+permissions:
+  contents: write
+
 jobs:
   update-all-time:
     name: Update all-time WakaTime stats
@@ -16,8 +19,10 @@ jobs:
     steps:
       - uses: athul/waka-readme@master
         with:
+          GH_TOKEN: ${{ github.token }}
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-          SECTION_NAME: waka_all_time
+          REPOSITORY: Memory2023Liu/README
+          SECTION_NAME: wakaalltime
           TIME_RANGE: all_time
           LANG_COUNT: 10
           SHOW_TIME: true
@@ -41,8 +46,10 @@ jobs:
     steps:
       - uses: athul/waka-readme@master
         with:
+          GH_TOKEN: ${{ github.token }}
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-          SECTION_NAME: waka_week
+          REPOSITORY: Memory2023Liu/README
+          SECTION_NAME: wakaweek
           TIME_RANGE: last_7_days
           LANG_COUNT: 10
           SHOW_TIME: true
