@@ -41,13 +41,13 @@ I specialize in:
 
 ### All-time statistics
 
-<!--START_SECTION:waka_all_time-->
-<!--END_SECTION:waka_all_time-->
+<!--START_SECTION:wakaalltime-->
+<!--END_SECTION:wakaalltime-->
 
 ### Recent 7 days
 
-<!--START_SECTION:waka_week-->
-<!--END_SECTION:waka_week-->
+<!--START_SECTION:wakaweek-->
+<!--END_SECTION:wakaweek-->
 
 ---
 
