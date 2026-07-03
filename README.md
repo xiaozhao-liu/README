@@ -42,6 +42,18 @@ I specialize in:
 ### All-time statistics
 
 <!--START_SECTION:wakaalltime-->
+
+```text
+Total Time: 2,963 hrs 3 mins
+
+TeX                1,468 hrs 7 mins      ░░░░░░░░░░░░█████████████   49.48 %
+Python             1,326 hrs 44 mins     ░░░░░░░░░░░██████████████   44.71 %
+BibTeX             103 hrs 23 mins       ░████████████████████████   03.48 %
+Markdown           14 hrs 29 mins        █████████████████████████   00.49 %
+OpenEdge ABL       9 hrs 45 mins         █████████████████████████   00.33 %
+Other              4 hrs 18 mins         █████████████████████████   00.14 %
+```
+
 <!--END_SECTION:wakaalltime-->
 
 ### Recent 7 days
