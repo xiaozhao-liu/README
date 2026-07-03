@@ -14,15 +14,6 @@
 
 My research focuses on developing compositionally complex materials for battery applications by leveraging automation and artificial intelligence.
 
-I specialize in:
-
-- Lab automation
-- Battery materials
-- Electrochemistry
-- Materials chemistry
-- Inorganic chemistry
-- Battery safety
-
 ---
 
 ## Research Interests
