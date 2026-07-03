@@ -30,6 +30,7 @@ I specialize in:
 - Compositionally complex materials
 - High-throughput synthesis and characterization
 - Battery cathode materials
+- Solid-state battery
 - Data-driven materials discovery
 - Automation-assisted materials research
 - Machine learning for materials science
