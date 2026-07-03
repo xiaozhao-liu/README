@@ -4,7 +4,7 @@
 
 **Battery Materials | Lab Automation | AI-Driven Materials Discovery**
 
-<img src="https://github-readme-stats.vercel.app/api?username=Memory2023Liu&show_icons=true&count_private=true&hide_border=true" alt="Memory2023Liu's GitHub Stats">
+<img src="https://github-readme-stats.vercel.app/api?username=Memory2023Liu&show_icons=true&hide_border=true&theme=default" alt="GitHub stats for Xiaozhao Liu">
 
 </div>
 
@@ -82,19 +82,6 @@ Other          0 secs                ██████████████�
 
 <!--END_SECTION:wakaweek-->
 
----
-
-## Notes
-
-This README was inspired by [waka-readme](https://github.com/marketplace/actions/waka-readme) and this GitHub Community [discussion](https://github.com/orgs/community/discussions/116451).
-
-To enable WakaTime updates, open your repository settings and go to:
-
-`Settings → Security → Secrets and variables → Actions`
-
-Add your WakaTime API key as:
-
-`WAKATIME_API_KEY`
 
 ---
 
