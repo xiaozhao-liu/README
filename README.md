@@ -1,6 +1,6 @@
 <div align="center">
 
-# Hi, I'm Xiaozhao Liu 👋
+# Hi, I'm Xiaozhao Liu
 
 **Battery Materials | Lab Automation | AI-Driven Materials Discovery**
 
@@ -30,7 +30,7 @@ I specialize in:
 - Compositionally complex materials
 - High-throughput synthesis and characterization
 - Battery cathode materials
-- Solid-state battery
+- Solid-state batteries
 - Data-driven materials discovery
 - Automation-assisted materials research
 - Machine learning for materials science
