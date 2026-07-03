@@ -59,6 +59,17 @@ Other              4 hrs 18 mins         █████████████
 ### Recent 7 days
 
 <!--START_SECTION:wakaweek-->
+
+```text
+Total Time: 40 hrs 52 mins
+
+Python         22 hrs 55 mins        ░░░░░░░░░░░░░░███████████   56.10 %
+TeX            14 hrs 13 mins        ░░░░░░░░░████████████████   34.82 %
+BibTeX         1 hr 19 mins          ░████████████████████████   03.23 %
+OpenEdge ABL   1 min                 █████████████████████████   00.05 %
+Other          0 secs                █████████████████████████   00.00 %
+```
+
 <!--END_SECTION:wakaweek-->
 
 ---
