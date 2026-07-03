@@ -56,6 +56,16 @@ Other              4 hrs 18 mins         █████████████
 
 <!--END_SECTION:wakaalltime-->
 
+### Daily average
+
+<!--START_SECTION:wakadailyaverage-->
+
+```text
+Daily average over the last 7 days: updating...
+```
+
+<!--END_SECTION:wakadailyaverage-->
+
 ### Recent 7 days
 
 <!--START_SECTION:wakaweek-->
