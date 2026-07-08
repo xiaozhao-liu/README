@@ -52,7 +52,7 @@ Other              4 hrs 18 mins         █████████████
 <!--START_SECTION:wakadailyaverage-->
 
 ```text
-Daily average over the last 7 days: 3 hrs 55 mins
+Daily average over the last 7 days: 3 hrs 44 mins
 ```
 
 <!--END_SECTION:wakadailyaverage-->
