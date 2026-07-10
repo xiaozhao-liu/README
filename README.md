@@ -2,7 +2,7 @@
 
 # Hi, I'm Xiaozhao Liu
 
-**Battery Materials | Lab Automation | AI-Driven Materials Discovery**
+**Battery Materials | Lab Automation | Data-Driven Materials Discovery**
 
 <img src="https://github-readme-stats.vercel.app/api?username=Memory2023Liu&show_icons=true&hide_border=true&theme=default" alt="GitHub stats for Xiaozhao Liu">
 
