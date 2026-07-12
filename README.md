@@ -62,11 +62,11 @@ Daily average over the last 7 days: 3 hrs 50 mins
 <!--START_SECTION:wakaweek-->
 
 ```text
-Total Time: 26 hrs 52 mins
+Total Time: 26 hrs 45 mins
 
-Python         15 hrs 24 mins        ░░░░░░░░░░░░░░███████████   57.34 %
-TeX            7 hrs 44 mins         ░░░░░░░██████████████████   28.81 %
-BibTeX         2 hrs 24 mins         ░░███████████████████████   08.97 %
+Python         15 hrs 9 mins         ░░░░░░░░░░░░░░███████████   56.68 %
+TeX            8 hrs 20 mins         ░░░░░░░░█████████████████   31.20 %
+BibTeX         1 hr 57 mins          ░░███████████████████████   07.32 %
 OpenEdge ABL   8 mins                █████████████████████████   00.53 %
 Markdown       2 mins                █████████████████████████   00.17 %
 ```
