@@ -62,12 +62,12 @@ Daily average over the last 7 days: 3 hrs 17 mins
 <!--START_SECTION:wakaweek-->
 
 ```text
-Total Time: 16 hrs 29 mins
+Total Time: 10 hrs 7 mins
 
-Python       8 hrs 48 mins         ░░░░░░░░░░░░░████████████   53.37 %
-TeX          6 hrs 36 mins         ░░░░░░░░░░███████████████   39.97 %
-JavaScript   8 mins                █████████████████████████   00.85 %
-Other        1 min                 █████████████████████████   00.14 %
+Python       5 hrs 58 mins         ░░░░░░░░░░░░░░░██████████   59.00 %
+TeX          3 hrs 6 mins          ░░░░░░░░█████████████████   30.73 %
+JavaScript   8 mins                █████████████████████████   01.39 %
+Other        1 min                 █████████████████████████   00.23 %
 ```
 
 <!--END_SECTION:wakaweek-->
